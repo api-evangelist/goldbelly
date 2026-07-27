@@ -1,22 +1,81 @@
 aid: goldbelly
 name: Goldbelly
-description: Goldbelly is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Goldbelly is a curated online marketplace for gourmet food and food gifts,
+  shipping America's most iconic and legendary regional foods, restaurant dishes,
+  and desserts nationwide directly to consumers' doors. The platform connects
+  hundreds of independent restaurants, bakeries, food artisans, and specialty
+  makers with customers through a consumer e-commerce storefront, gift and
+  corporate-gifting programs, subscriptions, and gift cards. Goldbelly is a
+  consumer marketplace and does not currently publish a public developer API,
+  SDK, or developer portal; this API Evangelist profile captures its public
+  web, help, seller, and policy surfaces. Backed by Y Combinator.
 url: https://raw.githubusercontent.com/api-evangelist/goldbelly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://img.goldbelly.com/consumer/homepage/facebook-share-home.png?fit=crop&w=1200&h=630
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food
+- Ecommerce
+- Marketplace
+- Gourmet Food
+- Food Delivery
+- Gifting
+- Consumer
 apis: []
+common:
+- type: Website
+  url: https://www.goldbelly.com
+- type: Blog
+  url: https://blog.goldbelly.com
+- type: Support
+  url: https://help.goldbelly.com/hc/en-us
+- type: HelpCenter
+  url: https://help.goldbelly.com/hc/en-us
+- type: SignUp
+  url: https://www.goldbelly.com/login
+- type: Login
+  url: https://www.goldbelly.com/login
+- type: TermsOfService
+  url: https://www.goldbelly.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.goldbelly.com/privacy-and-security
+- type: GitHubOrganization
+  url: https://github.com/goldbelly
+- type: About
+  url: https://www.goldbelly.com/about
+- type: Partners
+  url: https://www.goldbelly.com/partners
+- type: SellerPortal
+  url: https://sellers.goldbelly.com
+- type: DomainSecurity
+  url: security/goldbelly-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
